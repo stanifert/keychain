@@ -11,9 +11,10 @@ protocol ProfileVCDelegate: class {
     func set(user: User?)
 }
 
-class ProfileVC: BaseViewController, ProfileVCDelegate {
+class ProfileVC: UIViewController, ProfileVCDelegate {
 
     var user: User?
+    private let scrollView = UIScrollView()
     private let profileCard = ProfileCard()
     private let actionButton = UIButton(type: .system)
     private let tapticLight = UIImpactFeedbackGenerator(style: .light)

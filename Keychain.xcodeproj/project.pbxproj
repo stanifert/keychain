@@ -13,7 +13,6 @@
 		623A43BB24FB02EB005B85CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623A43B924FB02EB005B85CE /* LaunchScreen.storyboard */; };
 		623A43C824FB169E005B85CE /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623A43C724FB169E005B85CE /* CreateAccountVC.swift */; };
 		623A43CA24FB23C6005B85CE /* ProfileCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623A43C924FB23C6005B85CE /* ProfileCard.swift */; };
-		623A43CC24FB334B005B85CE /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623A43CB24FB334B005B85CE /* BaseViewController.swift */; };
 		623A43CE24FB33DD005B85CE /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623A43CD24FB33DD005B85CE /* ProfileVC.swift */; };
 		623A43D324FB3615005B85CE /* CustomTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623A43D224FB3615005B85CE /* CustomTextfield.swift */; };
 		623A43D524FB3C38005B85CE /* EditAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623A43D424FB3C38005B85CE /* EditAccountVC.swift */; };
@@ -33,7 +32,6 @@
 		623A43BC24FB02EB005B85CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		623A43C724FB169E005B85CE /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		623A43C924FB23C6005B85CE /* ProfileCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCard.swift; sourceTree = "<group>"; };
-		623A43CB24FB334B005B85CE /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		623A43CD24FB33DD005B85CE /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		623A43D224FB3615005B85CE /* CustomTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextfield.swift; sourceTree = "<group>"; };
 		623A43D424FB3C38005B85CE /* EditAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAccountVC.swift; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 		623A43D024FB3573005B85CE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				623A43CB24FB334B005B85CE /* BaseViewController.swift */,
 				623A43CD24FB33DD005B85CE /* ProfileVC.swift */,
 				623A43C724FB169E005B85CE /* CreateAccountVC.swift */,
 				623A43D424FB3C38005B85CE /* EditAccountVC.swift */,
@@ -201,7 +198,6 @@
 				623A43DC24FB43AB005B85CE /* KeychainStore.swift in Sources */,
 				623A43AD24FB02E7005B85CE /* AppDelegate.swift in Sources */,
 				623A43C824FB169E005B85CE /* CreateAccountVC.swift in Sources */,
-				623A43CC24FB334B005B85CE /* BaseViewController.swift in Sources */,
 				623A43AF24FB02E7005B85CE /* SceneDelegate.swift in Sources */,
 				623A43CA24FB23C6005B85CE /* ProfileCard.swift in Sources */,
 				623A43E624FB8EB1005B85CE /* Extensions.swift in Sources */,
